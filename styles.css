@@ -1,0 +1,40 @@
+#app{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.headerContainer{
+    text-align: center;
+    margin:0px 10px;
+}
+.bodyContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height:500px;
+}
+.bodyContainer > * {
+    display:flex;
+    flex-direction:column;
+    border:solid 1px orangered;
+    text-align:center;
+    min-width: 30%;   
+    height:100%;
+}
+.arrows{
+    border:solid 1px gray;
+    height: 30px;
+    margin: 5px;
+}
+.user{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+.userSelected{
+    font-size:20px;
+    margin-bottom:10px;
+    background-color:orange;
+}
+.activeArrow{
+    background-color:orange;
+}

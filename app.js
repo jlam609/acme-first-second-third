@@ -15,7 +15,7 @@ const createUser = (index) => {
     userContainer.addEventListener('click', ev => {
         ev.preventDefault();
         index.selected = true;
-        index.classList.add('userSelected')
+        userContainer.classList.add('userSelected')
 })
     return userContainer
 }
